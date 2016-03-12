@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    //android:key="@string/pref_units_key"
+    //android:title="@string/pref_units_label"
+    //android:defaultValue="@string/pref_units_metric"
+    //android:key="aewqret"
+    //android:defaultValue="@string/pref_orden_default"
+    //android:title="@string/pref_orden_label"
+    //android:summary="@string/pref_orden_summary"
+    //android:entries="@array/pref_orden_options"
+    //android:entryValues="@array/pref_orden_values"
+
+    <ListPreference
+        android:key="@string/pref_orden_key"
+        android:defaultValue="@string/pref_orden_default"
+        android:title="@string/pref_orden_label"
+        android:entries="@array/pref_orden_options"
+        android:entryValues="@array/pref_orden_values"
+        android:summary="@string/pref_orden_summary"
+        />
+</PreferenceScreen>
